@@ -53,7 +53,6 @@ function fifthyesfunction () {
 function fifthnofunction () {
     document.getElementById("fifthDiv").style.display="none"
     document.getElementById("tony").style.display="block"
-    document.getElementById("tony").style.display="none"
     i5= 0
 }
 
