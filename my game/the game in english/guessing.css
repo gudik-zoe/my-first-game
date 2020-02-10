@@ -10,11 +10,16 @@ width: 300px;
 top:230px;
 
 }
+#text {
+Position:absolute;
+Left: 10px;
+Top:230 px;
+Display:block;
 
 #firstDiv{
      position: absolute;
      left:750px;
-     display: block;
+     
   
     }
     
