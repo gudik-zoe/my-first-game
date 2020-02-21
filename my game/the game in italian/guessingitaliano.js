@@ -53,13 +53,16 @@ function fifthyesfunction () {
 function fifthnofunction () {
     document.getElementById("fifthDiv").style.display="none"
     document.getElementById("tony").style.display="block"
+    document.getElementById("tony").style.display="none"
     i5= 0
 }
 
 function resultfunction () {
-  let result =  i1 + i2 + i3 + i4 + i5 ; 
-  
-  document.getElementById("result").innerHTML = 'your number is ' + result
+  let result =  i1 + i2 + i3 + i4 + i5 
+  if (result == 0) {
+      console.log('your number is 0 ')
+  }
+  document.getElementById("result").innerHTML = 'il tuo numero é ' + result
   document.getElementById("tony").style="display:none;"
 }
 

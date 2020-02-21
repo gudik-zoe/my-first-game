@@ -1,0 +1,13 @@
+h2 {
+  font-size: x-large;
+  margin-left: 750px;
+}
+
+input {
+  width: 200px;
+  height: 25px;
+}
+
+#add {
+  height: 30px;
+}
