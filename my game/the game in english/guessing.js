@@ -1,3 +1,6 @@
+Function textfunction () {
+Document.getElementById("text").style.display="none"
+Document.getElementById("firsDiv").style.display="block"
 
 function firstyesfunction () {
     document.getElementById("firstDiv").style.display ="none"
